@@ -1,0 +1,668 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "tickets2":[
+    {	"id":1,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 15/09/2022",
+      "price": "1.148.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":2,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "1.153.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":3,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 22/10/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":4,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 23/09/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":5,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Phu-Quoc-PQC.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nPhú Quốc (PQC)",
+      "timestart": "Khởi hành: 08/08/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":6,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":7,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 12/09/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":8,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hue-HUI.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHuế (HUI)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "1.066.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":9,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hai-Phong-HPH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHải Phòng (HPH)",
+      "timestart": "Khởi hành: 13/08/2022",
+      "price": "1.222.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":10,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "699.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":11,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Vinh-VII.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nVinh (VII)",
+      "timestart": "Khởi hành: 09/09/2022",
+      "price": "687.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":12,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 28/08/2022",
+      "price": "1.183.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":13,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 15/09/2022",
+      "price": "1.148.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":14,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "1.153.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":15,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 22/10/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":16,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 23/09/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":17,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Phu-Quoc-PQC.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nPhú Quốc (PQC)",
+      "timestart": "Khởi hành: 08/08/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":18,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":19,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 12/09/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":20,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hue-HUI.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHuế (HUI)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "1.066.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":21,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hai-Phong-HPH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHải Phòng (HPH)",
+      "timestart": "Khởi hành: 13/08/2022",
+      "price": "1.222.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":22,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "699.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":23,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Vinh-VII.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nVinh (VII)",
+      "timestart": "Khởi hành: 09/09/2022",
+      "price": "687.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {	"id":24,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 28/08/2022",
+      "price": "1.183.000VND*",
+      "type": "Một chiều/Phổ thông"
+    }
+  ]
+  ,
+  "news": [
+    {
+      "title": "Học sinh tiểu học Trung Quốc phải tập trung học 'tư tưởng Tập Cận Bình'",
+      "image": "images/tapcanbinh.jpeg",
+      "time": "2 tiếng trước",
+      "size": "big",
+      "type": "world",
+      "id": 1
+    },
+    {
+      "title": "Nga xác nhận sẽ rút khỏi trạm không gian IS từ năm 2025",
+      "image": "images/Nga.jpg",
+      "time": "1 tiếng trước",
+      "type": "world",
+      "size": "small",
+      "id": 2
+    },
+    {
+      "title": "Vì sao cựu tổng thống Bush gây sốc khi cho kẹo bà Obama?",
+      "image": "images/obama_jozs.jpg",
+      "time": "3 tiếng trước",
+      "size": "small",
+      "type": "world",
+      "id": 3
+    },
+    {
+      "title": "Rái cá mắc Covid-19, nghi bị nhiễm từ nhân viên thuỷ cung Mỹ",
+      "image": "images/raica.jpg",
+      "time": "2 tiếng trước",
+      "type": "world",
+      "size": "small",
+      "id": 4
+    },
+    {
+      "title": "Đà Nẵng triển khai sửa chữa các đoạn đường ổ gà ở các khu vực đông dân",
+      "image": "images/street.jpg",
+      "time": "1 tiếng trước",
+      "type": "business",
+      "size": "big",
+      "id": 5
+    },
+    {
+      "title": "Chúng tôi đinh vị thẻ VIB ",
+      "image": "images/dinhvithe.jpg",
+      "time": "1 tiếng trước",
+      "type": "business",
+      "size": "small",
+      "id": 6
+    },
+    {
+      "title": "Đà Nẵng 'dẹp loạn' bất động sản: Phá dỡ ki ốt giao dịch trái phép",
+      "image": "images/danangdep.jpg",
+      "time": "2 tiếng trước",
+      "type": "business",
+      "size": "small",
+      "id": 7
+    },
+    {
+      "title": "Đà Nẵng mở lại các hoạt động chợ đêm, kinh tế khôi phục trở lại",
+      "image": "images/caurong.jpg",
+      "time": "2 tiếng trước",
+      "type": "business",
+      "size": "small",
+      "id": 8
+    }
+  ],
+  "tickets" :
+  [
+    {
+      "id": 1,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 15/09/2022",
+      "price": "1.148.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 2,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "1.153.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 3,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 22/10/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 4,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 23/09/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 5,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Phu-Quoc-PQC.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nPhú Quốc (PQC)",
+      "timestart": "Khởi hành: 08/08/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 6,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 7,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 12/09/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 8,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hue-HUI.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHuế (HUI)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "1.066.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 9,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hai-Phong-HPH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHải Phòng (HPH)",
+      "timestart": "Khởi hành: 13/08/2022",
+      "price": "1.222.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 10,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "699.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 11,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Vinh-VII.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nVinh (VII)",
+      "timestart": "Khởi hành: 09/09/2022",
+      "price": "687.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 12,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 28/08/2022",
+      "price": "1.183.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 13,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 15/09/2022",
+      "price": "1.148.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 14,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "1.153.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 15,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 22/10/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 16,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nĐà Nẵng (DAD)",
+      "timestart": "Khởi hành: 23/09/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 17,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Phu-Quoc-PQC.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nPhú Quốc (PQC)",
+      "timestart": "Khởi hành: 08/08/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 18,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nHà Nội (HAN)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 19,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Ho-Chi-Minh-City-SGN.jpg",
+      "nameticket": "Đà Nẵng (DAD) đến\r\nTP. Hồ Chí Minh (SGN)",
+      "timestart": "Khởi hành: 12/09/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 20,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hue-HUI.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHuế (HUI)",
+      "timestart": "Khởi hành: 03/10/2022",
+      "price": "1.066.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 21,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hai-Phong-HPH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nHải Phòng (HPH)",
+      "timestart": "Khởi hành: 13/08/2022",
+      "price": "1.222.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 22,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 08/06/2022",
+      "price": "699.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 23,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Vinh-VII.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến\r\nVinh (VII)",
+      "timestart": "Khởi hành: 09/09/2022",
+      "price": "687.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 24,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 28/08/2022",
+      "price": "1.183.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 25,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/hanoi-HAN.jpg",
+      "nameticket": "Hà Nội (HAN) đến\r\nNha Trang (CXR)",
+      "timestart": "Khởi hành: 28/08/2022",
+      "price": "736.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 26,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Nang-DAD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Đà Nẵng (DAD)",
+      "timestart": "Khởi hành: 01/10/2022",
+      "price": "653.950VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 27,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Phu-Quoc-PQC.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Phú Quốc (PQC)",
+      "timestart": "Khởi hành: 14/08/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 28,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Vinh-VII.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Vinh (VII)",
+      "timestart": "Khởi hành: 22/09/2022",
+      "price": "687.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 29,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hue-HUI.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Huế (HUI)",
+      "timestart": "Khởi hành: 09/12/2022",
+      "price": "829.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 30,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Hai-Phong-HPH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Hải Phòng (HPH)",
+      "timestart": "Khởi hành: 17/11/2022",
+      "price": "915.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 31,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Phu-Cat-UIH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Quy Nhơn (UIH)",
+      "timestart": "Khởi hành: 07/11/2022",
+      "price": "619.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 32,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Nha-Trang-CXR.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Nha Trang (CXR)",
+      "timestart": "Khởi hành: 28/08/2022",
+      "price": "736.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 32,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Da-Lat-DLI.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Đà Lạt (DLI)",
+      "timestart": "Khởi hành: 05/10/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 33,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Singapore-SIN.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Singapore (SIN)",
+      "timestart": "Khởi hành: 11/11/2022",
+      "price": "4.345.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 34,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Bangkok-BKK.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Bangkok (BKK)",
+      "timestart": "Khởi hành: 05/09/2022",
+      "price": "3.808.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 35,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Chu-Lai-VCL.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Chu Lai (VCL)",
+      "timestart": "Khởi hành: 06/11/2022",
+      "price": "619.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 36,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Thanh-Hoa-THD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Thanh Hóa (THD)",
+      "timestart": "Khởi hành: 24/08/2022",
+      "price": "915.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 37,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Dong-Hoi-VDH.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Đồng Hới (VDH)",
+      "timestart": "Khởi hành: 08/10/2022",
+      "price": "658.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 38,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Tuy-Hoa-TBB.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Tuy Hòa (TBB)",
+      "timestart": "Khởi hành: 11/09/2022",
+      "price": "668.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 39,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Buon-Ma-Thuot-BMV.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Buôn Ma Thuột (BMV)",
+      "timestart": "Khởi hành: 06/09/2022",
+      "price": "619.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 40,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Pleiku-PXU.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Pleiku (PXU)",
+      "timestart": "Khởi hành: 10/07/2022",
+      "price": "775.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 41,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Sydney-SYD.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Sydney (SYD)",
+      "timestart": "Khởi hành: 24/09/2022",
+      "price": "13.581.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 42,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Seoul-ICN.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Seoul (ICN)",
+      "timestart": "Khởi hành: 31/08/2022",
+      "price": "6.889.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 43,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/homepage-default.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến San Francisco (SFO)",
+      "timestart": "Khởi hành: 05/10/2022",
+      "price": "23.712.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 44,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/kuala-lumpur-KUL.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Kuala Lumpur (KUL)",
+      "timestart": "Khởi hành: 22/08/2022",
+      "price": "3.606.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 45,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Paris-CDG.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Paris (CDG)",
+      "timestart": "Khởi hành: 10/12/2022",
+      "price": "23.118.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 46,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Con-Dao-VCS.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Côn Đảo (VCS)",
+      "timestart": "Khởi hành: 09/08/2022",
+      "price": "1.606.000VND*",
+      "type": "Một chiều/Phổ thông"
+    },
+    {
+      "id": 47,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/melbourne-MEL.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Melbourne (MEL)",
+      "timestart": "Khởi hành: 02/11/2022",
+      "price": "13.314.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 48,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Tokyo-TYO.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Tokyo (NRT)",
+      "timestart": "Khởi hành: 13/10/2022",
+      "price": "10.001.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 49,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/vn/cities/Siem-Reap-REP.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Siem Reap (REP)",
+      "timestart": "Khởi hành: 12/08/2022",
+      "price": "7.347.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    },
+    {
+      "id": 50,
+      "image": "https://assets.airtrfx.com/cdn-cgi/image/width=400,height=300,quality=80,format=auto/https://media.jtdwjcwq6f4wp4ce.com/library/cities/delhi-DEL.jpg",
+      "nameticket": "TP. Hồ Chí Minh (SGN) đến Delhi (DEL)",
+      "timestart": "Khởi hành: 04/08/2022",
+      "price": "3.964.000VND*",
+      "type": "Khứ hồi/Phổ thông"
+    }
+  ]
+  
+}
