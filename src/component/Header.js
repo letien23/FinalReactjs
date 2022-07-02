@@ -2,59 +2,19 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
-import './Header.css';
 // import { CardSubtitle } from 'reactstrap';
 
-
-
-
 function Header() {
-
-
     return (
         <>
              {/* Topbar Start */}
-        <div className="container-fluid bg-primary py-3 d-none d-md-block">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
-                <div className="d-inline-flex align-items-center">
-                  <a className="text-white pr-3" href>FAQs</a>
-                  <span className="text-white">|</span>
-                  <a className="text-white px-3" href>Help</a>
-                  <span className="text-white">|</span>
-                  <a className="text-white pl-3" href>Support</a>
-                </div>
-              </div>
-              <div className="col-md-6 text-center text-lg-right">
-                <div className="d-inline-flex align-items-center">
-                  <a className="text-white px-3" href>
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="text-white px-3" href>
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a className="text-white px-3" href>
-                    <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a className="text-white px-3" href>
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a className="text-white pl-3" href>
-                    <i className="fab fa-youtube" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* Topbar End */}
         {/* Navbar Start */}
         <div className="container-fluid position-relative nav-bar p-0">
           <div className="container-lg position-relative p-0 px-lg-3" style={{zIndex: 9}}>
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
               <a href="index.html" className="navbar-brand d-block d-lg-none">
-                <h1 className="m-0 display-4 text-primary"><span className="text-secondary">i</span>CREAM</h1>
+                <h1 className="m-0 display-4 text-primary"><span className="text-secondary">e</span>Booking</h1>
               </a>
               <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span className="navbar-toggler-icon" />
@@ -66,7 +26,7 @@ function Header() {
                   <a href="product.html" className="nav-item nav-link">Product</a>
                 </div>
                 <a href="index.html" className="navbar-brand mx-5 d-none d-lg-block">
-                  <h1 className="m-0 display-4 text-primary"><span className="text-secondary">i</span>CREAM</h1>
+                  <h1 className="m-0 display-4 text-primary"><span className="text-secondary">e</span>Booking</h1>
                 </a>
                 <div className="navbar-nav mr-auto py-0">
                   <a href="service.html" className="nav-item nav-link">Service</a>
@@ -78,44 +38,6 @@ function Header() {
           </div>
         </div>
         {/* Navbar End */}
-        {/* Carousel Start */}
-        <div className="container-fluid p-0 mb-5 pb-5">
-          <div id="header-carousel" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img className="w-100" src="img/carousel-1.jpg" alt="Image" />
-                <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                  <div className="p-3" style={{maxWidth: '900px'}}>
-                    <h4 className="text-white text-uppercase mb-md-3">Traditional &amp; Delicious</h4>
-                    <h1 className="display-3 text-white mb-md-4">Traditional Ice Cream Since 1950</h1>
-                    <a href className="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <img className="w-100" src="img/carousel-2.jpg" alt="Image" />
-                <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                  <div className="p-3" style={{maxWidth: '900px'}}>
-                    <h4 className="text-white text-uppercase mb-md-3">Traditional &amp; Delicious</h4>
-                    <h1 className="display-3 text-white mb-md-4">Made From Our Own Organic Milk</h1>
-                    <a href className="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a className="carousel-control-prev" href="#header-carousel" data-slide="prev">
-              <div className="btn btn-secondary px-0" style={{width: '45px', height: '45px'}}>
-                <span className="carousel-control-prev-icon mb-n1" />
-              </div>
-            </a>
-            <a className="carousel-control-next" href="#header-carousel" data-slide="next">
-              <div className="btn btn-secondary px-0" style={{width: '45px', height: '45px'}}>
-                <span className="carousel-control-next-icon mb-n1" />
-              </div>
-            </a>
-          </div>
-        </div>
-        {/* Carousel End */}
             <div className='container'>
                 <div id="demo" className="carousel slide" data-ride="carousel">
                     <ul className="carousel-indicators">
