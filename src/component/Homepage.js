@@ -68,7 +68,7 @@ function Homepage() {
                                         <div className="card-body">
                                             <h5 className="card-title">{tickets.nameticket}</h5>
                                             <p className="">{tickets.timestart}</p>
-                                            <p className="text-right">Từ: {tickets.price}</p>
+                                            <p className="text-right" style={{ textAlign: "left" }}> Từ: {tickets.price}</p>
                                             <p className="text-right">{tickets.type}</p>
                                             <a href='https://www.vietnamairlines.com/vn/vi/home' className='text-center'><button className='btn btn-warning'>Đặt ngay</button></a>
 

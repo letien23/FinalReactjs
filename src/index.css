@@ -16,3 +16,28 @@ code {
 /* *{
     list-style: none;
 } */
+.position-relative {
+    position: relative!important;
+    background-color: #17A2B8;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    background-color: #17A2B8;
+}}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.text-secondary {
+    color: green!important;
+}
+.text-primary {
+    color: white!important;
+    font-weight: 700;
+}
