@@ -2,12 +2,13 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
+import Book from './Book';
 // import { CardSubtitle } from 'reactstrap';
 function Homepage() {
     const [type, setType] = useState('');
     const [tickets, setTickets] = useState([]);
     const getTickets = () => {
-        axios.get('http://localhost:3000/tickets/')
+        axios.get('http://localhost:4000/tickets/')
             .then(function (response) {
                 console.log(response.data);
                 setTickets(response.data)
@@ -52,7 +53,8 @@ function Homepage() {
                                         <p className="">{tickets.timestart}</p>
                                         <p className="text-right">Từ: {tickets.price}</p>
                                         <p className="text-right">{tickets.type}</p>
-                                        <a href='https://www.vietnamairlines.com/vn/vi/home'><button className='btn btn-warning'>Đặt ngay</button></a>
+                                        <a><button className='btn btn-warning'  data-bs-toggle="modal" data-bs-target="#exampleModal">Đặt ngay</button></a>
+                                        <Book/>
                                     </div>
                                 </div>
                             </div>
@@ -70,8 +72,8 @@ function Homepage() {
                                             <p className="">{tickets.timestart}</p>
                                             <p className="text-right" style={{ textAlign: "left" }}> Từ: {tickets.price}</p>
                                             <p className="text-right">{tickets.type}</p>
-                                            <a href='https://www.vietnamairlines.com/vn/vi/home' className='text-center'><button className='btn btn-warning'>Đặt ngay</button></a>
-
+                                            <a href='#' className='text-center'><button className='btn btn-warning'  data-bs-toggle="modal" data-bs-target="#exampleModal">Đặt ngay</button></a>
+                                            <Book/>
                                         </div>
                                     </div>
                                 </div>
